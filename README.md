@@ -4,7 +4,7 @@
 
 This is a simple TSLint rule that extends functionality of the original `import-blacklist`.
 
-## Instalation
+## Installation
 
 ```shell
 npm install --save-dev import-blacklist-extended
@@ -20,7 +20,9 @@ Edit your global `tslint.json` and add the following:
 }
 ```
 
-Configure rules within chosen `tslint.json` files:
+## Usage
+
+Configure the rule in chosen `tslint.json` files:
 
 ```json
 {
