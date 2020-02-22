@@ -1,0 +1,28 @@
+language: node_js
+node_js:
+  - node
+  - lts/*
+
+cache: npm
+
+stages:
+  - lint
+  - test
+  - build
+
+install:
+  - npm ci
+
+jobs:
+  include:
+    - stage: lint
+      name: 'Linters'
+      script: npm run lint
+
+    - stage: test
+      name: 'Unit Tests'
+      script: npm run test
+
+    - stage: build
+      name: 'Building'
+      script: npm run build
