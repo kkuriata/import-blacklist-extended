@@ -1,6 +1,6 @@
 {
   "name": "import-blacklist-extended",
-  "version": "2.0.1",
+  "version": "2.0.0",
   "description": "TSLint rule extending basic \"import-blacklist\" functionality to support relative paths",
   "private": false,
   "publishConfig": {
